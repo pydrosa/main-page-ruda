@@ -27,8 +27,8 @@ THE SOFTWARE.
         var settings = {
 
             entries: [],
+            margin: auto,
            
-            position: relative,
             width: 480,
             height: 480,
             radius: '70%',
