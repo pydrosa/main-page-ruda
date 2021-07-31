@@ -22,6 +22,8 @@
         fieldset, form, label, legend,
         table, caption, tbody, tfoot, thead, tr, th, td {
             margin: 0;
+	    right: 50%
+	    top: 50%
             padding: 0;
             border: 0;
             outline: 0;
