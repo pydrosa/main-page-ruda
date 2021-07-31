@@ -20,7 +20,8 @@
         dl, dt, dd, ol, ul, li,
         fieldset, form, label, legend,
         table, caption, tbody, tfoot, thead, tr, th, td {
-            margin: 0;
+            
+	    
             padding: 0;
             border: 0;
             outline: 0;
@@ -31,10 +32,12 @@
         }
 
         body {
-            
-	    overflow: hidden;
+	    
+            overflow: hidden;
             background-color: #000;
         }
+
+       
 
     </style>
 
@@ -78,17 +81,18 @@
             var settings = {
 
                 entries: entries,
-                width: 480,
-                height: 480,
+                
+                width: '100%',
+                height: '100%',
                 radius: '65%',
                 radiusMin: 75,
                 bgDraw: true,
-                bgColor: '#111',
+                bgColor: '#000',
                 opacityOver: 1.00,
                 opacityOut: 0.05,
                 opacitySpeed: 6,
-                fov: 800,
-                speed: 2,
+                fov: 1000,
+                speed: 0.5,
                 fontFamily: 'Oswald, Arial, sans-serif',
                 fontSize: '15',
                 fontColor: '#fff',
