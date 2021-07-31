@@ -27,8 +27,6 @@ THE SOFTWARE.
         var settings = {
 
             entries: [],
-            margin: auto,
-           
             width: 480,
             height: 480,
             radius: '70%',
@@ -39,7 +37,7 @@ THE SOFTWARE.
             opacityOut: 0.05,
             opacitySpeed: 6,
             fov: 800,
-            speed: 2,
+            speed: 5,
             fontFamily: 'Arial, sans-serif',
             fontSize: '15',
             fontColor: '#fff',
