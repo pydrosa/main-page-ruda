@@ -37,7 +37,7 @@ THE SOFTWARE.
             opacityOut: 0.05,
             opacitySpeed: 6,
             fov: 800,
-            speed: 5,
+            speed: 2,
             fontFamily: 'Arial, sans-serif',
             fontSize: '15',
             fontColor: '#fff',
